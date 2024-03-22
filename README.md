@@ -1,4 +1,4 @@
-<img src="Tcell.png" align="left" width="100" heigth="100"/>
+<img src="Tcell.png" align="left" width="120" heigth="120"/>
 
 # plattner_mcb_2024
 
