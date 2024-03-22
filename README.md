@@ -2,13 +2,16 @@
 
 Jupyternotebook for analysing single-cell TCR repertoires and gene expression from the demo data set "Human TCR/BCR Full Length Demo Data" provided by BD (https://scomix.bd.com/hc/en-us/articles/4424059302157-Rhapsody-TCR-BCR-Full-Length-Demo-Dataset).
 
-## Clone the repo
+
+## Environment setup and software installation
+
+### Clone the repo
 
 ```
 git clone https://github.com/icbi-lab/plattner_mcb_2024.git
 ```
 
-## Obtain the data
+### Obtain the data
 
 ```
 $ URL='https://bd-rhapsody-public.s3.amazonaws.com/Rhapsody-Demo-Data/VDJ/'
@@ -20,7 +23,7 @@ $ curl -o $DATA_FILE ${URL}/${DATA_FILE}
 $ unzip $DATA_FILE
 ```
 
-## Setup conda environment
+### Setup conda environment
 
 ```
 $ conda create -n plattner_mcb_2024 python==3.9
