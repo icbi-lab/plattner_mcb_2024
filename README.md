@@ -47,6 +47,8 @@ $ pip install numpy
 $ pip install pandas
 $ pip install scanpy
 $ pip install scirpy
+$ pip install matplotlib
+$ pip install seaborn
 $ pip install ipykernel
 $ pip install ipywidgets
 
