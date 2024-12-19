@@ -41,16 +41,16 @@ $ unzip $DATA_FILE
 $ conda create -n plattner_mcb_2024 python==3.9
 $ conda activate plattner_mcb_2024
 
-$ pip install anndata
-$ pip install muon
-$ pip install numpy
-$ pip install pandas
-$ pip install scanpy
-$ pip install scirpy
-$ pip install matplotlib
-$ pip install seaborn
-$ pip install ipykernel
-$ pip install ipywidgets
+$ pip install anndata==0.10.9
+$ pip install muon==0.1.6
+$ pip install numpy==2.0.2
+$ pip install pandas==2.2.3
+$ pip install scanpy==1.10.3
+$ pip install scirpy==0.17.2
+$ pip install matplotlib==3.9.4
+$ pip install seaborn==0.13.2
+$ pip install ipykernel==6.29.5
+$ pip install ipywidgets==8.1.5
 
 $ python -m ipykernel install --user --name plattner_mcb_2024 --display-name "plattner_mcb_2024"
 ```
