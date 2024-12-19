@@ -26,7 +26,7 @@ git clone https://github.com/icbi-lab/plattner_mcb_2024.git
 ### Obtain the data
 
 ```
-$ URL='https://bd-rhapsody-public.s3.amazonaws.com/Rhapsody-Demo-Data/VDJ/'
+$ URL='https://bd-rhapsody-public.s3.amazonaws.com/Rhapsody-Demo-Data/VDJ'
 $ DATA_FILE='RhapTCRBCRdemo.zip'
 $ cd plattner_mcb_2024
 $ mkdir data
@@ -41,7 +41,7 @@ $ unzip $DATA_FILE
 $ conda create -n plattner_mcb_2024 python==3.9
 $ conda activate plattner_mcb_2024
 
-$ pip install anndata==0.10.9
+$ pip install anndata==0.10.8
 $ pip install muon==0.1.6
 $ pip install numpy==2.0.2
 $ pip install pandas==2.2.3
