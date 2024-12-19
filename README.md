@@ -23,16 +23,12 @@ Jupyternotebook for analysing single-cell TCR repertoires and gene expression fr
 git clone https://github.com/icbi-lab/plattner_mcb_2024.git
 ```
 
-### Obtain the data
+### Unzip the data
 
 ```
-$ URL='https://bd-rhapsody-public.s3.amazonaws.com/Rhapsody-Demo-Data/VDJ'
-$ DATA_FILE='RhapTCRBCRdemo.zip'
 $ cd plattner_mcb_2024
-$ mkdir data
 $ cd data
-$ curl -o $DATA_FILE ${URL}/${DATA_FILE}
-$ unzip $DATA_FILE
+$ unzip demo_data.zip
 ```
 
 ### Setup conda environment
